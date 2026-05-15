@@ -4,28 +4,28 @@
 # controls who GitHub auto-pings, not who is required.
 
 # Default: any maintainer can approve any path.
-*                               @fg-nava @aligg @jamesbursa
+*                               @fg-nava @aligg @jamesbursa @bhodges-navapbc
 
 # --- Install pathway: a regression here breaks the marketplace install ---
 
-/.claude-plugin/                @fg-nava @aligg @jamesbursa
-/.github/workflows/             @fg-nava @aligg @jamesbursa
-/LICENSE                        @fg-nava @aligg @jamesbursa
+/.claude-plugin/                @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.github/workflows/             @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/LICENSE                        @fg-nava @aligg @jamesbursa @bhodges-navapbc
 
 # --- Agent entry points (per IDE): a regression here breaks user sessions ---
 
-/AGENTS.md                      @fg-nava @aligg @jamesbursa
-/CLAUDE.md                      @fg-nava @aligg @jamesbursa
-/hooks/                         @fg-nava @aligg @jamesbursa
-/.claude/commands/              @fg-nava @aligg @jamesbursa
-/.gemini/commands/              @fg-nava @aligg @jamesbursa
-/agents/                        @fg-nava @aligg @jamesbursa
+/AGENTS.md                      @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/CLAUDE.md                      @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/hooks/                         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.claude/commands/              @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.gemini/commands/              @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/agents/                        @fg-nava @aligg @jamesbursa @bhodges-navapbc
 
 # --- Per-IDE setup docs (the install instructions teams follow) ---
 
-/docs/copilot-setup.md          @fg-nava @aligg @jamesbursa
-/docs/cursor-setup.md           @fg-nava @aligg @jamesbursa
-/docs/gemini-cli-setup.md       @fg-nava @aligg @jamesbursa
-/docs/opencode-setup.md         @fg-nava @aligg @jamesbursa
-/docs/windsurf-setup.md         @fg-nava @aligg @jamesbursa
-/docs/getting-started.md        @fg-nava @aligg @jamesbursa
+/docs/copilot-setup.md          @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/cursor-setup.md           @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/gemini-cli-setup.md       @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/opencode-setup.md         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/windsurf-setup.md         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/getting-started.md        @fg-nava @aligg @jamesbursa @bhodges-navapbc
