@@ -1,0 +1,9 @@
+# CODEOWNERS for navapbc/agent-skills
+# Owners are auto-requested for review when matching paths change.
+
+# Default: any maintainer can approve
+*                       @fg-nava @aligg @jamesbursa
+
+# Plugin manifests and install pathway: extra care, all three maintainers
+/.claude-plugin/        @fg-nava @aligg @jamesbursa
+/.github/workflows/     @fg-nava @aligg @jamesbursa
