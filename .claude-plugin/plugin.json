@@ -1,12 +1,12 @@
 {
   "name": "agent-skills",
   "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship.",
-  "version": "1.0.0",
   "author": {
-    "name": "Addy Osmani"
+    "name": "Nava PBC",
+    "url": "https://navapbc.com"
   },
-  "homepage": "https://github.com/addyosmani/agent-skills",
-  "repository": "https://github.com/addyosmani/agent-skills",
+  "homepage": "https://github.com/navapbc/agent-skills",
+  "repository": "https://github.com/navapbc/agent-skills",
   "license": "MIT",
   "commands": "./.claude/commands",
   "skills": "./skills",

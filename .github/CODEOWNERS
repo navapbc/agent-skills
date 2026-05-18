@@ -1,0 +1,31 @@
+# CODEOWNERS for navapbc/agent-skills
+# Owners are auto-requested for review when matching paths change.
+# The branch ruleset requires one approval from any maintainer; this file
+# controls who GitHub auto-pings, not who is required.
+
+# Default: any maintainer can approve any path.
+*                               @fg-nava @aligg @jamesbursa @bhodges-navapbc
+
+# --- Install pathway: a regression here breaks the marketplace install ---
+
+/.claude-plugin/                @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.github/workflows/             @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/LICENSE                        @fg-nava @aligg @jamesbursa @bhodges-navapbc
+
+# --- Agent entry points (per IDE): a regression here breaks user sessions ---
+
+/AGENTS.md                      @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/CLAUDE.md                      @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/hooks/                         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.claude/commands/              @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/.gemini/commands/              @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/agents/                        @fg-nava @aligg @jamesbursa @bhodges-navapbc
+
+# --- Per-IDE setup docs (the install instructions teams follow) ---
+
+/docs/copilot-setup.md          @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/cursor-setup.md           @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/gemini-cli-setup.md       @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/opencode-setup.md         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/windsurf-setup.md         @fg-nava @aligg @jamesbursa @bhodges-navapbc
+/docs/getting-started.md        @fg-nava @aligg @jamesbursa @bhodges-navapbc
