@@ -1,10 +1,9 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nava-agent-skills",
+  "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship.",
   "owner": {
     "name": "Nava PBC"
-  },
-  "metadata": {
-    "description": "Production-grade engineering skills for AI coding agents — covering the full software development lifecycle from spec to ship."
   },
   "plugins": [
     {
@@ -13,7 +12,10 @@
         "source": "github",
         "repo": "navapbc/agent-skills"
       },
-      "description": "Production-grade engineering skills covering every phase of software development: spec, plan, build, verify, review, and ship."
+      "description": "Production-grade engineering skills covering every phase of software development: spec, plan, build, verify, review, and ship.",
+      "homepage": "https://github.com/navapbc/agent-skills",
+      "license": "MIT",
+      "keywords": ["skills", "agents", "engineering", "spec", "tdd", "review", "ship"]
     }
   ]
 }
